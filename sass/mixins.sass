@@ -1,0 +1,21 @@
+@mixin option_icon($background,$color)
+  font-size: 4rem
+  padding: 2rem
+  border-radius: 100%
+  background-color: $background
+  color: $color
+  min-width: 9rem
+  margin-bottom: 1.5rem
+
+@mixin button($padding,$margin,$border)
+  border: $border
+  text-transform: uppercase
+  font-weight: $fontWeight
+  font-size: $fontSize
+  color: $textColor
+  padding: $padding
+  margin: $margin
+  display: inline-block
+  &:hover
+    color: #898989
+    text-decoration: none

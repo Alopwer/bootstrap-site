@@ -1,0 +1,333 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+html {
+  font-size: 10px;
+}
+
+header {
+  background-color: #fcdb00;
+  color: #222;
+  padding-top: 5.8rem;
+  padding-bottom: 18rem;
+}
+
+ul {
+  margin-bottom: 0 !important;
+}
+ul li {
+  display: block;
+}
+
+.menu {
+  margin-top: 1rem;
+}
+
+.menu__item {
+  margin: 0 5.7rem;
+}
+.menu__item a {
+  font-size: 2.2rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: #000;
+}
+.menu__item a:hover {
+  color: #898989;
+  text-decoration: none;
+}
+
+.offer {
+  margin: 25rem auto 0;
+  text-align: center;
+}
+
+.offer__title {
+  font-size: 4.8rem;
+  font-weight: 700;
+}
+
+.offer__info {
+  margin-top: 2.2rem;
+  font-size: 2rem;
+}
+
+.offer__btn {
+  border: 4px solid black;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2.2rem;
+  color: #222;
+  padding: 1.3rem 6rem;
+  margin: 4rem;
+  display: inline-block;
+}
+.offer__btn:hover {
+  color: #898989;
+  text-decoration: none;
+}
+
+.title {
+  padding-top: 10rem;
+  padding-bottom: 7rem;
+  text-align: center;
+  max-width: 78rem;
+  margin: 0 auto;
+}
+
+.title__main {
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+
+.title__text {
+  font-size: 2.2rem;
+}
+
+.feature {
+  margin-bottom: 7.6rem;
+}
+
+.feature__icon {
+  font-size: 4rem;
+  margin-right: 3.7rem;
+  color: #000;
+}
+
+.feature__title {
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.feature__text {
+  font-size: 1.6rem;
+  color: #898989;
+}
+
+.option {
+  text-align: center;
+  max-width: 20rem;
+  margin: 0 auto;
+}
+
+.option__main {
+  margin-bottom: 1rem;
+}
+
+.option__icon {
+  font-size: 4rem;
+  padding: 2rem;
+  border-radius: 100%;
+  background-color: #ebebeb;
+  color: #000;
+  min-width: 9rem;
+  margin-bottom: 1.5rem;
+}
+
+.option__icon-alt {
+  font-size: 4rem;
+  padding: 2rem;
+  border-radius: 100%;
+  background-color: #000;
+  color: #ebebeb;
+  min-width: 9rem;
+  margin-bottom: 1.5rem;
+}
+
+.option__title {
+  font-weight: 700;
+  font-size: 2.4rem;
+  margin-bottom: 1.5rem;
+}
+
+.option__text {
+  font-size: 1.4rem;
+  color: #898989;
+}
+
+.option__price {
+  text-transform: uppercase;
+  color: #222;
+  font-weight: 700;
+  font-size: 3.2rem;
+}
+
+.option__price-text {
+  font-size: 1.6rem;
+  color: #898989;
+}
+
+.option__purchase {
+  border: 2px solid black;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2.2rem;
+  color: #222;
+  padding: 1.5rem 2rem;
+  margin: 1rem 0 4rem;
+  display: inline-block;
+  font-size: 1.6rem;
+  min-width: 15rem;
+}
+.option__purchase:hover {
+  color: #898989;
+  text-decoration: none;
+}
+
+.work {
+  text-align: center;
+}
+
+.work__title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-top: 2.3rem;
+}
+
+.work__text {
+  font-size: 1.6rem;
+  color: #898989;
+  line-height: 1;
+  margin-bottom: 5.5rem;
+}
+
+.touch__info {
+  text-align: center;
+  max-width: 16rem;
+  margin: 0 auto;
+}
+
+.touch__icon {
+  font-size: 2.2rem;
+  margin-bottom: 2.5rem;
+}
+
+.touch__title {
+  font-size: 2.4rem;
+}
+
+.touch__text {
+  font-size: 1.4rem;
+  color: #898989;
+}
+
+.touch__form {
+  margin: 0 auto;
+}
+
+.touch__input {
+  padding: 2rem 1.5rem !important;
+  border: 2px solid black !important;
+  font-size: 1.6rem !important;
+  max-width: 60rem;
+}
+
+textarea {
+  resize: none !important;
+}
+
+.touch__btn {
+  color: white;
+  background: black;
+  border: none;
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 1.5rem 3rem;
+}
+
+.touch__btn-block {
+  margin: 0 auto 8rem;
+  text-align: center;
+}
+
+.sign {
+  background: #000;
+}
+
+.sign__title {
+  color: white;
+}
+
+.sign__btn {
+  color: black;
+  background: white;
+  border: none;
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 0.9rem 3.6rem;
+}
+
+.sign__btn-block {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.footer {
+  background: #000;
+  color: #fff;
+  font-size: 1.6rem;
+}
+
+.footer__info {
+  max-width: 6rem;
+}
+
+.footer__info-alt, .footer__info-main {
+  max-width: 16rem;
+}
+
+@media screen and (max-width: 992px) {
+  .logo {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .menu {
+    margin-top: 4rem;
+  }
+
+  .menu__item {
+    text-align: center;
+  }
+
+  .offer {
+    margin-top: 10rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .option__main {
+    margin-bottom: 2rem;
+  }
+
+  .option__alt {
+    padding-bottom: 5rem;
+  }
+
+  .footer__info-alt, .footer__info-main, .footer__info {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .menu {
+    flex-direction: column;
+    margin-top: 4rem;
+  }
+
+  .menu__item {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .offer {
+    margin-top: 5rem;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

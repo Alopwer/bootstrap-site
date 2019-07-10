@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap')
+@import './variables.scss'
+@import './mixins.sass'
+
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+  font-family: 'Source Sans Pro', sans-serif
+
+// Using font-size: 10px to use rem
+
+html
+  font-size: 10px
+
+// First section - header
+
+header
+  background-color: #fcdb00
+  color: $textColor
+  padding-top: 5.8rem
+  padding-bottom: 18rem
+
+ul
+  margin-bottom: 0 !important
+  li
+    display: block
+
+.menu
+  margin-top: 1rem
+.menu__item
+  margin: 0 5.7rem
+  a
+    font-size: $fontSize
+    font-weight: $fontWeight
+    text-decoration: none
+    color: #000
+    &:hover
+      color: #898989
+      text-decoration: none
+
+.offer
+  margin: 25rem auto 0
+  text-align: center
+.offer__title
+  font-size: 4.8rem
+  font-weight: $fontWeight
+.offer__info
+  margin-top: 2.2rem
+  font-size: 2rem
+.offer__btn
+  @include button(1.3rem 6rem, 4rem, 4px solid black)
+
+// Second section
+
+.title
+  padding-top: 10rem
+  padding-bottom: 7rem
+  text-align: center
+  max-width: 78rem
+  margin: 0 auto
+.title__main
+  font-size: 3.2rem
+  font-weight: 700
+.title__text
+  font-size: $fontSize
+
+.feature
+  margin-bottom: 7.6rem
+.feature__icon
+  font-size: 4rem
+  margin-right: 3.7rem
+  color: #000
+.feature__title
+  font-size: $fontSize
+  font-weight: $fontWeight
+.feature__text
+  font-size: 1.6rem
+  color: #898989
+
+// Third section
+
+.option
+  text-align: center
+  max-width: 20rem
+  margin: 0 auto
+.option__main
+  margin-bottom: 1rem
+.option__icon
+  @include option_icon(#ebebeb, #000)
+.option__icon-alt
+  @include option_icon(#000, #ebebeb)
+.option__title
+  font-weight: $fontWeight
+  font-size: 2.4rem
+  margin-bottom: 1.5rem
+.option__text
+  font-size: 1.4rem
+  color: #898989
+.option__price
+  text-transform: uppercase
+  color: $textColor
+  font-weight: $fontWeight
+  font-size: 3.2rem
+.option__price-text
+  font-size: 1.6rem
+  color: #898989
+.option__purchase
+  @include button(1.5rem 2rem, 1rem 0 4rem, 2px solid black)
+  font-size: 1.6rem
+  min-width: 15rem
+
+// Fourth section
+
+.work
+  text-align: center
+.work__title
+  font-size: $fontSize
+  font-weight: $fontWeight
+  margin-top: 2.3rem
+.work__text
+  font-size: 1.6rem
+  color: #898989
+  line-height: 1
+  margin-bottom: 5.5rem
+
+// Fifth section
+
+.touch__info
+  text-align: center
+  max-width: 16rem
+  margin: 0 auto
+.touch__icon
+  font-size: $fontSize
+  margin-bottom: 2.5rem
+.touch__title
+  font-size: 2.4rem
+.touch__text
+  font-size: 1.4rem
+  color: #898989
+.touch__form
+  margin: 0 auto
+.touch__input
+  padding: 2rem 1.5rem !important
+  border: 2px solid black !important
+  font-size: 1.6rem !important
+  max-width: 60rem
+textarea
+  resize: none !important
+.touch__btn
+  color: white
+  background: black
+  border: none
+  font-size: 1.6rem
+  font-weight: $fontWeight
+  text-transform: uppercase
+  padding: 1.5rem 3rem
+.touch__btn-block
+  margin: 0 auto 8rem
+  text-align: center
+
+// Sixth section
+
+.sign
+  background: #000
+.sign__title
+  color: white
+.sign__btn
+  color: black
+  background: white
+  border: none
+  font-size: 1.6rem
+  font-weight: $fontWeight
+  text-transform: uppercase
+  padding: 0.9rem 3.6rem
+.sign__btn-block
+  text-align: center
+  margin-bottom: 5rem
+// Footer
+
+.footer
+  background: #000
+  color: #fff
+  font-size: 1.6rem
+.footer__info
+  max-width: 6rem
+.footer__info-alt, .footer__info-main
+  max-width: 16rem
+// media
+
+@media screen and (max-width:992px)
+  .logo
+    display: block
+    margin: 0 auto
+  .menu
+    margin-top: 4rem
+  .menu__item
+    text-align: center
+  .offer
+    margin-top: 10rem
+
+@media screen and (max-width:768px)
+  .option__main
+    margin-bottom: 2rem
+  .option__alt
+    padding-bottom: 5rem
+  .footer__info-alt, .footer__info-main, .footer__info
+    font-size: 1.4rem
+
+@media screen and (max-width:576px)
+  .menu
+    flex-direction: column
+    margin-top: 4rem
+  .menu__item
+    text-align: center
+    margin-bottom: 1rem
+  .offer
+    margin-top: 5rem
